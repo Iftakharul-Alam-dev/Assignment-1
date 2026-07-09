@@ -87,12 +87,44 @@ nav{
     text-align: center;
 }
 .pack{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-area: auto;
+    gap: 20px;
+    border-radius: 12px;
 }
 .pack-card{
-    border: 1px solid #E5E7EB;
+   border: 1px solid #E5E7EB;
    text-align: left;
+   padding: 15px;
 
+}
+.pack ul{
+    color: #2563EB;
+    padding: 15px;
+}
+.pack li span{
+    color: #575757;
+}
+.pack-info p,.pack-info h1{
+    margin-bottom: 8px;
+}
+.pack-info p{
+    color:#888888;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+}
+.pac-1{
+    background-color: white;
+    color: #2563EB;
+    border:1px solid  #2563EB;
+}
+.p3{
+  margin: 50px;
+}
+.prs{
+    padding: 10px 100px;
+    border-radius: 8px;
 }
