@@ -20,6 +20,7 @@ nav{
     border: none;
     border-radius: 10px;
     padding: 8px 15px;
+    cursor: pointer;
 }
 .nav-logo img {
     width: 134px;
@@ -81,4 +82,17 @@ nav{
 }
 .intro{
     padding: 20px;
+}
+.offer{
+    text-align: center;
+}
+.pack{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.pack-card{
+    border: 1px solid #E5E7EB;
+   text-align: left;
+
 }
