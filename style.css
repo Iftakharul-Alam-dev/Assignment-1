@@ -139,6 +139,7 @@ nav{
 .pack-info p{
     color:#888888;
     font-size: 12px;
+    margin-bottom: 25px;
 }
 .btn{
     display: flex;
@@ -167,8 +168,55 @@ nav{
 .pro-li li span{
     color: white ;
 }
+.pack-info{
+    border-bottom: 1px solid #E5E7EB;
+    margin-right: 15px;
+}
 .pac-3{
     background-color:white;
     border-color: #0D1B2A;
     color: #0D1B2A;
+}
+.ai {
+    background-color: #F8FAFC;
+    align-items: center;
+    text-align: center;
+    padding: 20px 50px;
+}
+.why-attnd{
+    padding: 30px;
+}
+.why-attnd h1,.why-attnd p{
+    margin-bottom: 10px;
+}
+.why-attnd p{
+    color:#575757;
+}
+.attnd-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+    padding-bottom: 30px;
+}
+.card-info{
+    align-items: center;
+    border: 1px solid white ;
+    background-color: white;
+    border-radius: 12px;
+    padding: 40px 0px;
+}
+.card-logo span{
+    font-size: 40px;
+    color: #2563EB;
+}
+.card-logo,.card-info h4,.card-info p{
+    margin-bottom: 10px;
+}
+.card-info p{
+    color: #575757;
+    font-size: 14px;
+    padding: 0px 30px;
+}
+footer{
+    background-color: #0D1B2A;
 }
